@@ -1,0 +1,7 @@
+made by FireFox443.
+@FireFox443-YT (youtube)
+
+extract the 'vault' folder to 'documents' (you can put it anywhere but i recoment 'documents' for ease of access).
+to avoid things getting messy and losing vaults, create your vaults in the 'vaults' folder.
+press the 'create vault' button to create vault and enter a password (DO NOT FORGET PASSWORD OR YOU WILL NOT BE ABLE TO OPEN VAULT!!!)
+all buttond are self explanatory.
