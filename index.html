@@ -71,14 +71,14 @@
                 <button onclick="playVaultSound()">warning</button>
 
                 <!-- Hidden Audio Element -->
-                <audio preload="auto">id="roll" src="audio/roll.mp3"></audio>
+                <audio id="roll" src="audio/roll.m4a" preload="auto"></audio>
 
                 <!-- Script -->
                 <script>
                 function playVaultSound() {
-                    const audio = document.getElementById("roll.m4a");
+                    const audio = document.getElementById("roll");
                     audio.play();
                 }
-                </script>
+            </script>
     </body>
 </html>
