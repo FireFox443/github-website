@@ -67,6 +67,18 @@
                 </div>
             <hr>
             <br>
-            <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1'">warning</button>
+                            <!-- Button -->
+                <button onclick="playVaultSound()">warning</button>
+
+                <!-- Hidden Audio Element -->
+                <audio preload="auto">id="roll" src="audio/roll.mp3"></audio>
+
+                <!-- Script -->
+                <script>
+                function playVaultSound() {
+                    const audio = document.getElementById("roll.m4a");
+                    audio.play();
+                }
+                </script>
     </body>
 </html>
