@@ -41,24 +41,28 @@
         </a>
             <br>
             <style>
-                .thumbnail {
-                    width: 200px;
-                    cursor: pointer;
-                    transition: 0.3s;
+               .thumbnail {
+                width: 200px;
+                cursor: pointer;
+                transition: 0.3s;
+                border: 2px solid #000000; /* Green border */
+                border-radius: 6px;         /* Optional: rounded corners */
                 }
-
                 .thumbnail:hover {
                     opacity: 0.8;
                 }
-
-                .overlay {
-                    display: none;
-                    position: fixed;
-                    inset: 0;
-                    z-index: 999;
-                    background-color: rgba(0,0,0,0.8);
+               .overlay {
+                display: none; /* Hidden by default */
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: 999;
+                background-color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                align-items: center;
                 }
-
                 .overlay img {
                     display: block;
                     max-width: 80%;
